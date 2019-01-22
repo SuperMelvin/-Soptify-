@@ -4,6 +4,7 @@
     "pages/login/login"
   ],
   "window":{
-    "navigationBarBackgroundColor": "#000"
+    "navigationBarBackgroundColor": "#000",
+    "backgroundColor": "#000"
   }
 }
