@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <open-data type="userAvatarUrl" class="userinfo-avatar"></open-data>
+    <open-data type="userNickName" class="userinfo-nickname"></open-data>
+  </view>
+  <button open-type="getUserInfo" class="btn-login" bindgetuserinfo='getUserInfo'>微 信 登 录</button>
+</view>

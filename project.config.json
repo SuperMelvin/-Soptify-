@@ -36,16 +36,8 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
-			"list": [
-				{
-					"id": -1,
-					"name": "options测试",
-					"pathName": "pages/index/index",
-					"query": "uuid=haha",
-					"scene": "1047"
-				}
-			]
+			"current": -1,
+			"list": []
 		}
 	}
 }
