@@ -1,1 +1,44 @@
 /**index.wxss**/
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  background-color: #000;
+}
+
+.row {
+  padding-top: 60rpx; 
+  height: 400rpx;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 40rpx 0 0;
+  overflow: scroll;
+}
+
+.info {
+  display: inline-block;
+  margin: 0 30rpx;
+}
+
+.singer-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+
+.singer-name {
+  color: #fff;
+  text-align: center;
+}

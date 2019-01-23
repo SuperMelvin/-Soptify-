@@ -11,8 +11,8 @@ Page({
     console.log(e)
     if (e.detail.errMsg == 'getUserInfo:ok') {
       app.globalData.userInfo = e.detail.userInfo
-      wx.reLaunch({
-        url: '../index/index',
+      wx.switchTab({
+        url: '../index/index'
       })
       console.log('获取用户信息成功--------')
       console.log(app.globalData.userInfo)

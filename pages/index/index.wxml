@@ -1,1 +1,30 @@
 <!--index.wxml-->
+<view class="container">
+  <view class="row">
+    <view class="title">最近常听</view>
+    <view class='content'>
+      <view class="info" wx:for="{{singer}}">
+        <image class="singer-avatar" mode="aspectFill" src="{{item.avatar}}"></image>
+        <view class="singer-name">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="row">
+    <view class="title">最近常听</view>
+    <view class='content'>
+      <view class="info" wx:for="{{singer}}">
+        <image class="singer-avatar" mode="aspectFill" src="{{item.avatar}}"></image>
+        <view class="singer-name">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="row">
+    <view class="title">最近常听</view>
+    <view class='content'>
+      <view class="info" wx:for="{{singer}}">
+        <image class="singer-avatar" mode="aspectFill" src="{{item.avatar}}"></image>
+        <view class="singer-name">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+</view>
