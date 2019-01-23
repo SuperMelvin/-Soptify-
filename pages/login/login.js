@@ -8,11 +8,13 @@ Page({
   //事件处理函数
   getUserInfo: function (e) {
     console.log(e)
-    app.globalData.userInfo = e.detail.userInfo
-    wx.reLaunch({
-      url: '../index/index',
-    })
-    console.log(app.globalData.userInfo)
+    if (e.detail.errMsg == 'getUserInfo:ok') {
+      app.globalData.userInfo = e.detail.userInfo
+      wx.reLaunch({
+        url: '../index/index',
+      })
+      console.log(app.globalData.userInfo)
+    }
   },
 
   onLoad: function (options) {

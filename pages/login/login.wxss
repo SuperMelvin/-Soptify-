@@ -28,7 +28,7 @@
   font-weight: bold;
 }
 
-.btn-login {
+.btn-wx-login {
   border-radius: 0;
   width: 50%;
   font-weight: bold;

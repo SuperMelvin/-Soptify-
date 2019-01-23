@@ -11,9 +11,9 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.5.0",
+	"libVersion": "2.5.1",
 	"appid": "wx0f1604b4ff8c9954",
-	"projectname": "OWFC",
+	"projectname": "Yfitops",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
