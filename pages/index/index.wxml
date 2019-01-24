@@ -10,20 +10,22 @@
     </view>
   </view>
   <view class="row">
-    <view class="title">最近常听</view>
+    <view class="title">为你推荐</view>
     <view class='content'>
-      <view class="info" wx:for="{{singer}}">
-        <image class="singer-avatar" mode="aspectFill" src="{{item.avatar}}"></image>
-        <view class="singer-name">{{item.name}}</view>
+      <view class="info" wx:for="{{album}}">
+        <image class="album-avatar" mode="aspectFill" src="{{item.avatar}}"></image>
+        <view class="album-name">{{item.name}}</view>
+        <view class="album-singer">{{item.singer}}</view>
       </view>
     </view>
   </view>
-  <view class="row">
-    <view class="title">最近常听</view>
-    <view class='content'>
-      <view class="info" wx:for="{{singer}}">
-        <image class="singer-avatar" mode="aspectFill" src="{{item.avatar}}"></image>
-        <view class="singer-name">{{item.name}}</view>
+  <view class="playlist">
+    <view class="title">热门歌单</view>
+    <view class='playlist-content'>
+      <view class="playlist-info" wx:for="{{playlist}}">
+        <image class="playlist-avatar" mode="aspectFill" src="{{item.avatar}}"></image>
+        <view class="playlist-name">{{item.name}}</view>
+        <view class="playlist-singer">{{item.singer}}</view>
       </view>
     </view>
   </view>
