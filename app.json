@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/login/login",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/user/user"
   ],
   "window":{
     "navigationBarBackgroundColor": "#000",
@@ -26,7 +27,7 @@
         "selectedIconPath": "resource/img/search-choose.png"
       },
       {
-        "pagePath": "pages/search/search",
+        "pagePath": "pages/user/user",
         "text": "我的",
         "iconPath": "resource/img/user.png",
         "selectedIconPath": "resource/img/user-choose.png"

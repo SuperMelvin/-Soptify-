@@ -1,1 +1,13 @@
 <!--index.wxml-->
+<view class="container">
+  <view class="playlist">
+    <view class="title">今日热门</view>
+    <view class='playlist-content'>
+      <view class="playlist-info" wx:for="{{playlist}}">
+        <image class="playlist-avatar" mode="aspectFill" src="{{item.avatar}}"></image>
+        <view class="playlist-name">{{item.name}}</view>
+        <view class="playlist-singer">{{item.singer}}</view>
+      </view>
+    </view>
+  </view>
+</view>

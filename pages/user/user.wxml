@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="singer-cover" mode="aspectFill" src="{{favorite}}"></image>
+  <view class="userinfo">
+    <open-data type="userAvatarUrl" class="userinfo-avatar"></open-data>
+    <open-data type="userNickName" class="userinfo-nickname"></open-data>
+  </view>
+</view>

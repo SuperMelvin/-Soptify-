@@ -1,0 +1,35 @@
+/**index.wxss**/
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+}
+
+.singer-cover {
+  width: 100%;
+  height: 40vh;
+}
+
+.userinfo {
+  position: absolute;
+  top: 8%;
+  left: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  border: 8rpx solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.userinfo-nickname {
+  color: #fff;
+  margin-top: 20rpx;
+  font-weight: bold;
+}
